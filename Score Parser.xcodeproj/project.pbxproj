@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB3694E4191C390500828420 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB3694E3191C390500828420 /* Foundation.framework */; };
+		EB3694E6191C390500828420 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB3694E5191C390500828420 /* CoreGraphics.framework */; };
+		EB3694E8191C390500828420 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB3694E7191C390500828420 /* UIKit.framework */; };
+		EB3694EE191C390500828420 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB3694EC191C390500828420 /* InfoPlist.strings */; };
+		EB3694F0191C390500828420 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3694EF191C390500828420 /* main.m */; };
+		EB3694F4191C390500828420 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3694F3191C390500828420 /* AppDelegate.m */; };
+		EB3694F7191C390500828420 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB3694F5191C390500828420 /* Main.storyboard */; };
+		EB3694FA191C390500828420 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3694F9191C390500828420 /* ViewController.m */; };
+		EB3694FC191C390500828420 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB3694FB191C390500828420 /* Images.xcassets */; };
+		EB369503191C390500828420 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB369502191C390500828420 /* XCTest.framework */; };
+		EB369504191C390500828420 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB3694E3191C390500828420 /* Foundation.framework */; };
+		EB369505191C390500828420 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB3694E7191C390500828420 /* UIKit.framework */; };
+		EB36950D191C390500828420 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB36950B191C390500828420 /* InfoPlist.strings */; };
+		EB36950F191C390500828420 /* Score_ParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB36950E191C390500828420 /* Score_ParserTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB369506191C390500828420 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB3694D8191C390500828420 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB3694DF191C390500828420;
+			remoteInfo = "Score Parser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB3694E0191C390500828420 /* Score Parser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Score Parser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB3694E3191C390500828420 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB3694E5191C390500828420 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EB3694E7191C390500828420 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EB3694EB191C390500828420 /* Score Parser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Score Parser-Info.plist"; sourceTree = "<group>"; };
+		EB3694ED191C390500828420 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB3694EF191C390500828420 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB3694F1191C390500828420 /* Score Parser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Score Parser-Prefix.pch"; sourceTree = "<group>"; };
+		EB3694F2191C390500828420 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB3694F3191C390500828420 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB3694F6191C390500828420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB3694F8191C390500828420 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB3694F9191C390500828420 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB3694FB191C390500828420 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EB369501191C390500828420 /* Score ParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Score ParserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB369502191C390500828420 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EB36950A191C390500828420 /* Score ParserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Score ParserTests-Info.plist"; sourceTree = "<group>"; };
+		EB36950C191C390500828420 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB36950E191C390500828420 /* Score_ParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Score_ParserTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB3694DD191C390500828420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3694E6191C390500828420 /* CoreGraphics.framework in Frameworks */,
+				EB3694E8191C390500828420 /* UIKit.framework in Frameworks */,
+				EB3694E4191C390500828420 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB3694FE191C390500828420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB369503191C390500828420 /* XCTest.framework in Frameworks */,
+				EB369505191C390500828420 /* UIKit.framework in Frameworks */,
+				EB369504191C390500828420 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB3694D7191C390500828420 = {
+			isa = PBXGroup;
+			children = (
+				EB3694E9191C390500828420 /* Score Parser */,
+				EB369508191C390500828420 /* Score ParserTests */,
+				EB3694E2191C390500828420 /* Frameworks */,
+				EB3694E1191C390500828420 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB3694E1191C390500828420 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB3694E0191C390500828420 /* Score Parser.app */,
+				EB369501191C390500828420 /* Score ParserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB3694E2191C390500828420 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB3694E3191C390500828420 /* Foundation.framework */,
+				EB3694E5191C390500828420 /* CoreGraphics.framework */,
+				EB3694E7191C390500828420 /* UIKit.framework */,
+				EB369502191C390500828420 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB3694E9191C390500828420 /* Score Parser */ = {
+			isa = PBXGroup;
+			children = (
+				EB3694F2191C390500828420 /* AppDelegate.h */,
+				EB3694F3191C390500828420 /* AppDelegate.m */,
+				EB3694F5191C390500828420 /* Main.storyboard */,
+				EB3694F8191C390500828420 /* ViewController.h */,
+				EB3694F9191C390500828420 /* ViewController.m */,
+				EB3694FB191C390500828420 /* Images.xcassets */,
+				EB3694EA191C390500828420 /* Supporting Files */,
+			);
+			path = "Score Parser";
+			sourceTree = "<group>";
+		};
+		EB3694EA191C390500828420 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB3694EB191C390500828420 /* Score Parser-Info.plist */,
+				EB3694EC191C390500828420 /* InfoPlist.strings */,
+				EB3694EF191C390500828420 /* main.m */,
+				EB3694F1191C390500828420 /* Score Parser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB369508191C390500828420 /* Score ParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB36950E191C390500828420 /* Score_ParserTests.m */,
+				EB369509191C390500828420 /* Supporting Files */,
+			);
+			path = "Score ParserTests";
+			sourceTree = "<group>";
+		};
+		EB369509191C390500828420 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB36950A191C390500828420 /* Score ParserTests-Info.plist */,
+				EB36950B191C390500828420 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB3694DF191C390500828420 /* Score Parser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB369512191C390500828420 /* Build configuration list for PBXNativeTarget "Score Parser" */;
+			buildPhases = (
+				EB3694DC191C390500828420 /* Sources */,
+				EB3694DD191C390500828420 /* Frameworks */,
+				EB3694DE191C390500828420 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Score Parser";
+			productName = "Score Parser";
+			productReference = EB3694E0191C390500828420 /* Score Parser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB369500191C390500828420 /* Score ParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB369515191C390500828420 /* Build configuration list for PBXNativeTarget "Score ParserTests" */;
+			buildPhases = (
+				EB3694FD191C390500828420 /* Sources */,
+				EB3694FE191C390500828420 /* Frameworks */,
+				EB3694FF191C390500828420 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB369507191C390500828420 /* PBXTargetDependency */,
+			);
+			name = "Score ParserTests";
+			productName = "Score ParserTests";
+			productReference = EB369501191C390500828420 /* Score ParserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB3694D8191C390500828420 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Sony Theakanath";
+				TargetAttributes = {
+					EB369500191C390500828420 = {
+						TestTargetID = EB3694DF191C390500828420;
+					};
+				};
+			};
+			buildConfigurationList = EB3694DB191C390500828420 /* Build configuration list for PBXProject "Score Parser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB3694D7191C390500828420;
+			productRefGroup = EB3694E1191C390500828420 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB3694DF191C390500828420 /* Score Parser */,
+				EB369500191C390500828420 /* Score ParserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB3694DE191C390500828420 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3694FC191C390500828420 /* Images.xcassets in Resources */,
+				EB3694EE191C390500828420 /* InfoPlist.strings in Resources */,
+				EB3694F7191C390500828420 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB3694FF191C390500828420 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB36950D191C390500828420 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB3694DC191C390500828420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3694FA191C390500828420 /* ViewController.m in Sources */,
+				EB3694F4191C390500828420 /* AppDelegate.m in Sources */,
+				EB3694F0191C390500828420 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB3694FD191C390500828420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB36950F191C390500828420 /* Score_ParserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB369507191C390500828420 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB3694DF191C390500828420 /* Score Parser */;
+			targetProxy = EB369506191C390500828420 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB3694EC191C390500828420 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB3694ED191C390500828420 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EB3694F5191C390500828420 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB3694F6191C390500828420 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB36950B191C390500828420 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB36950C191C390500828420 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB369510191C390500828420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB369511191C390500828420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB369513191C390500828420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Score Parser/Score Parser-Prefix.pch";
+				INFOPLIST_FILE = "Score Parser/Score Parser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EB369514191C390500828420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Score Parser/Score Parser-Prefix.pch";
+				INFOPLIST_FILE = "Score Parser/Score Parser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EB369516191C390500828420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Score Parser.app/Score Parser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Score Parser/Score Parser-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Score ParserTests/Score ParserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EB369517191C390500828420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Score Parser.app/Score Parser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Score Parser/Score Parser-Prefix.pch";
+				INFOPLIST_FILE = "Score ParserTests/Score ParserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB3694DB191C390500828420 /* Build configuration list for PBXProject "Score Parser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB369510191C390500828420 /* Debug */,
+				EB369511191C390500828420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB369512191C390500828420 /* Build configuration list for PBXNativeTarget "Score Parser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB369513191C390500828420 /* Debug */,
+				EB369514191C390500828420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB369515191C390500828420 /* Build configuration list for PBXNativeTarget "Score ParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB369516191C390500828420 /* Debug */,
+				EB369517191C390500828420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB3694D8191C390500828420 /* Project object */;
+}
